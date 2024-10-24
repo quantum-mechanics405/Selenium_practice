@@ -115,7 +115,7 @@ search_bar.send_keys(Keys.RETURN)
 
 # Locate the message input area where you can type your message
 message_input = driver.find_element(By.XPATH, '//div[@contenteditable="true" and @data-tab="10"]')
-for i in range(5000):
+for i in range(10):
     # Clear the message input area (optional)
     message_input.clear()
     # random_word = np.random.choice(love_words)
@@ -127,8 +127,9 @@ for i in range(5000):
     time.sleep(0.2)
 
     # Type "AoA" into the message input area
-    message_input.send_keys(random_word)
+    # message_input.send_keys(random_word)
     # message_input.send_keys('mere charging khatm horhe a me tora charge krta hn phir teray sath pora din guzaron ga')
+    message_input.send_keys('qurbanoo')
 
     # Press Enter to send the message
     message_input.send_keys(Keys.RETURN)
