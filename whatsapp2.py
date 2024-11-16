@@ -129,7 +129,7 @@ for i in range(10):
     # Type "AoA" into the message input area
     # message_input.send_keys(random_word)
     # message_input.send_keys('mere charging khatm horhe a me tora charge krta hn phir teray sath pora din guzaron ga')
-    message_input.send_keys('qurbanoo')
+    message_input.send_keys('I LOVE YOU')
 
     # Press Enter to send the message
     message_input.send_keys(Keys.RETURN)
