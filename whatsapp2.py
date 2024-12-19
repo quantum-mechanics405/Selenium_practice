@@ -123,13 +123,13 @@ for i in range(10):
     # random_word = np.random.choice(commitment_sentences)
     # random_word = np.random.choice(love_sentences_urdu)
     # random_word = np.random.choice(farewell_sentences)
-    random_word = np.random.choice(sorry_sentences)
-    time.sleep(0.2)
+    # random_word = np.random.choice(sorry_sentences)
+    # time.sleep(0.2)
 
     # Type "AoA" into the message input area
     # message_input.send_keys(random_word)
     # message_input.send_keys('mere charging khatm horhe a me tora charge krta hn phir teray sath pora din guzaron ga')
-    message_input.send_keys('I LOVE YOU')
+    message_input.send_keys('  v')
 
     # Press Enter to send the message
     message_input.send_keys(Keys.RETURN)
