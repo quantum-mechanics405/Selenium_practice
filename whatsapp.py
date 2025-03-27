@@ -38,3 +38,5 @@ time.sleep(8)
 # Close the browser (optional)
 # driver.quit()
 
+
+print('Hello world')
