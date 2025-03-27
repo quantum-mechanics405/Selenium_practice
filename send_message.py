@@ -26,14 +26,14 @@ search_bar = driver.find_element(By.XPATH, '//div[@contenteditable="true" and @r
 search_bar.clear()
 
 # Enter the search term "Maham"
-search_bar.send_keys("SS")
+search_bar.send_keys("Naeem Ghr")
 
 # Optionally press Enter to select the first result (if needed)
 search_bar.send_keys(Keys.RETURN)
 
 # Locate the message input area where you can type your message
 message_input = driver.find_element(By.XPATH, '//div[@contenteditable="true" and @data-tab="10"]')
-for i in range(10):
+for i in range(100):
     # Clear the message input area (optional)
 
     message_input.clear()

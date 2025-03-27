@@ -105,7 +105,7 @@ search_bar = driver.find_element(By.XPATH, '//div[@contenteditable="true" and @r
 search_bar.clear()
 
 # Enter the search term "Maham"
-search_bar.send_keys("SS")
+search_bar.send_keys("hiabcdef")
 
 # Wait a bit to see the results appear
 # time.sleep(2)  # Adjust as needed
@@ -115,7 +115,7 @@ search_bar.send_keys(Keys.RETURN)
 
 # Locate the message input area where you can type your message
 message_input = driver.find_element(By.XPATH, '//div[@contenteditable="true" and @data-tab="10"]')
-for i in range(10):
+for i in range(100):
     # Clear the message input area (optional)
     message_input.clear()
     # random_word = np.random.choice(love_words)
@@ -129,7 +129,7 @@ for i in range(10):
     # Type "AoA" into the message input area
     # message_input.send_keys(random_word)
     # message_input.send_keys('mere charging khatm horhe a me tora charge krta hn phir teray sath pora din guzaron ga')
-    message_input.send_keys('  v')
+    message_input.send_keys('Sweet heart')
 
     # Press Enter to send the message
     message_input.send_keys(Keys.RETURN)
