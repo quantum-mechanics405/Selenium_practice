@@ -165,7 +165,6 @@ search_bar.clear()
 # Enter the search term "Maham"
 search_bar.send_keys("Heisenberg")
 
-
 # Wait a bit to see the results appear
 # time.sleep(2)  # Adjust as needed
 
