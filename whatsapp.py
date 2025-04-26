@@ -35,54 +35,11 @@ search_bar.send_keys(Keys.RETURN)
 # Wait to see the chat open (you can remove or adjust this wait time)
 time.sleep(8)
 
+
 # Close the browser (optional)
 # driver.quit()
 
 
 print('Hello world')
 
-print('Hello world')
 
-print('Hello world')
-
-print('Hello world')
-
-print('Hello world')
-
-print('Hello world')
-
-print('Hello world')
-
-print('Hello world')
-
-print('Hello world')
-
-print('Hello world')
-
-print('Hello world')
-
-print('Hello world')
-
-print('Hello world')
-
-print('Hello world')
-
-print('Hello world')
-
-print('Hello world')
-
-print('Hello world')
-
-print('Hello world')
-
-print('Hello world')
-
-print('Hello world')
-
-print('Hello world')
-
-print('Hello world')
-
-print('Hello world')
-
-print('Hello world')
