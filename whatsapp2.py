@@ -120,7 +120,7 @@ search_bar.send_keys(Keys.RETURN)
 # Locate the message input area where you can type your message
 message_input = driver.find_element(By.XPATH, '//div[@contenteditable="true" and @data-tab="10"]')
 # for i in range(100):
-for i in love_sentences2:
+for i in love_sentences:
         # Clear the message input area (optional)
     message_input.clear()
     # random_word = np.random.choice(love_words)
