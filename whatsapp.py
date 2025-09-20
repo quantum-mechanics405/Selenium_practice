@@ -9,6 +9,7 @@ import time
 # Set up the Chrome WebDriver
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
 
+
 # Open WhatsApp Web
 driver.get("https://web.whatsapp.com")
 
